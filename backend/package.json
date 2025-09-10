@@ -1,0 +1,12 @@
+﻿{
+  "name": "streetwise-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sanity": "powershell ./Scripts/sanity-check.ps1",
+    "start:emus": "npm run sanity && firebase emulators:start --only functions,firestore,auth --project streetwise-b13be --import=./seed --export-on-exit --debug"
+  },
+  "devDependencies": {
+    "firebase-tools": "^14.15.2"
+  }
+}

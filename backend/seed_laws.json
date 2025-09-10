@@ -1,0 +1,12 @@
+﻿[
+  {
+    "city": "Toronto",
+    "topic": "curfew",
+    "details": "Toronto law states that minors must not be in public spaces past 11 PM without adult supervision."
+  },
+  {
+    "city": "New York",
+    "topic": "loitering",
+    "details": "Loitering in certain public spaces may result in fines or removal by NYPD."
+  }
+]

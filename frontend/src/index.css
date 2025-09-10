@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  transition: background-color 1.5s ease;
+}
+
+/* Neon */
+.neon-text {
+  color: #39ff14;
+  text-shadow:
+    0 0 10px #39ff14,
+    0 0 20px #39ff14,
+    0 0 40px #39ff14;
+  animation: neonPulse 2s infinite;
+}
+@keyframes neonPulse {
+  0%,
+  100% {
+    text-shadow:
+      0 0 10px #39ff14,
+      0 0 20px #39ff14;
+  }
+  50% {
+    text-shadow:
+      0 0 20px #39ff14,
+      0 0 40px #39ff14;
+  }
+}
+
+/* Eye */
+#eye {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid #39ff14;
+  border-radius: 50%;
+  box-shadow: 0 0 15px #39ff14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pupil {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #39ff14;
+  border-radius: 50%;
+  transition: transform 0.1s linear;
+}
+
+/* Tier Buttons */
+.tier-btn {
+  font-size: 1rem;
+  color: #39ff14;
+  font-weight: bold;
+}
+.tier-btn:hover {
+  color: white;
+}
