@@ -1,0 +1,8 @@
+body {
+  background: url('https://i.ibb.co/gZcCPtj/graffiti-bg.jpg') no-repeat center
+    center fixed;
+  background-size: cover;
+  font-family: 'Bangers', cursive;
+  color: #f0f0f0;
+  text-shadow: 2px 2px #000;
+}

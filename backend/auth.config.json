@@ -1,0 +1,6 @@
+﻿{
+  "signInOptions": [
+    { "provider": "password", "requireDisplayName": true },
+    { "provider": "google.com" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "streetwise-functions",
+  "private": true,
+  "engines": { "node": "20" },
+  "main": "index.js",
+  "scripts": {
+    "sanity": "powershell ../Scripts/sanity-check.ps1",
+    "start:emus": "npm run sanity && npm --prefix .. run start:emus"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.7.0",
+    "firebase-functions": "^6.4.0"
+  }
+}
