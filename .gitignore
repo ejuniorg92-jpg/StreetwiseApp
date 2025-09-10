@@ -1,13 +1,4 @@
-﻿# Node / build
-node_modules
-dist
-build
-
-# Env & secrets
+node_modules/
 .env
-*.env
-.env.local
-.env.*.local
-frontend/src/.env
-firebase-debug.log
-logs/
+.DS_Store
+/dist
